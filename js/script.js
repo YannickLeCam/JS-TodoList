@@ -1,6 +1,7 @@
 const buttonAddTask = document.getElementById("addTaskButton");
 const container = document.getElementById("container");
 let card;
+let taskCounter = 0;
 
 function addTask() {
     let newCard = document.createElement("div");
