@@ -24,7 +24,9 @@ main{
 .cards{
     flex:1;
     max-width: 30%;
+    min-width: 30%;
     max-height: 30vh;
+    min-height: 30vh;
     position: relative;
 }
 
